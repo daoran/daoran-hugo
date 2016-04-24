@@ -1,0 +1,6 @@
+[submodule "themes/shiori"]
+	path = themes/shiori
+	url = git@github.com:chibicode/hugo-theme-shiori.git
+[submodule "public"]
+	path = public
+	url = git@github.com:daoran/daoran.github.io.git
