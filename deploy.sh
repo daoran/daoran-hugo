@@ -13,7 +13,7 @@ git push origin master
 
 
 # Build the project. 
-hugo --theme=vienna # if using a theme, replace by `hugo -t <yourtheme>`
+hugo --theme=hugo-steam-theme # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public

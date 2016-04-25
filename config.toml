@@ -1,32 +1,39 @@
 baseurl = "http://daoran.github.io/"
 languageCode = "en-us"
-title = "Ryan Sui"
-
-# Copyright notice. This is displayer in the footer.
-copyright = "&copy; 2016 Ryan Sui. All Rights Reserved."
+title = "daoran's blog"
+theme = "hugo-steam-theme"
+disqusShortname = ""
+paginate = 10
 
 [params]
-    # Social accounts. Link to these accounts are displayed in the header and
-    # footer.
-    twitter = "daoransky"
-    github = "daoran"
-    #linkedin = "Your LinkedIn username"
-    #googleplus = "Your Google+ user id"
-    #facebook = "Your Facebook username"
-    #stackoverflow = "Your Stackoverflow user id (number)"
-    #keybase = "Your keybase.io username"
-    #instagram = "Your Instagram username"
-    # Disqus shortname
-    #disqus = "Your disqus shortname"
-    # Google Analytics API key.
-    #ga_api_key = "Your Google Analytics tracking id"
-    # Mixpanel API key.
-    #mixpanel_api_key = "Your Mixpanel API key"
-    author = "Ryan Sui"
-    avatar = "/path/to/avatar"
-    #contact = "Your contact link (ex. mailto:foo@example.com)"
-    bio = "Your short bio"
-    # Short subtitle/tagline. This is displayed in the header.
-    subtitle = "Never run with the crowd"
-    themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
 
+	title = "daoran"
+	subtitle = "never run with the crowd"
+	copyright = "Released under the MIT license."
+
+	# You can choose between green, orange, red and blue.
+	themeColor = "blue"
+	# Enable Google Analytics be inserting your tracking code
+	googleAnalytics = ""
+
+	# To provide some metadata for search engines and the about section in the footer
+	# feel free to add a few information about you and your website.
+	name = "Ryan Sui"
+	bio = "making the world suck less."
+	description = "Thoughts on programming & life"
+	location = "" # optional
+	twitter = "daoransky" # optional
+	github = "daoran" # optional
+    weibo = "daoransky" # optional
+
+	# Enable a comment system
+	# You can choose between Disqus or Google Plus by setting comments
+	# to disqus or googleplus. For using Disqus you need to enter your
+	# shortname in disqusShortname at the top of the configs. 
+	comments = "disqus"
+
+	# Customize or translate the strings
+	keepReadingStr = "Keep reading"
+	backtotopStr = "Back to top"
+	shareStr = "Share"
+	pageNotFoundTitle = "404 - Page not found"
