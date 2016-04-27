@@ -25,6 +25,13 @@ func main() {
 }
 ```
 
+
+```
+$ mkdir handler-example
+$ cd handler-example
+$ touch main.go
+```
+
 ## Step 2. Test Chinese Character
 ```
 杂诗 其一
