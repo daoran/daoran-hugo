@@ -37,3 +37,7 @@ paginate = 10
 	backtotopStr = "Back to top"
 	shareStr = "Share"
 	pageNotFoundTitle = "404 - Page not found"
+
+[permalinks]
+    post = "/:year/:month/:filename/"
+    #code = "/:filename/"

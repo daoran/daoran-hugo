@@ -15,7 +15,7 @@ description = "Just test"
 ## Step 1. Test Syntax Highlighting
 Here's an example:
 
-```
+```prettyprint
 package main
 
 import "fmt"
@@ -26,7 +26,7 @@ func main() {
 ```
 
 
-```
+```prettyprint
 $ mkdir handler-example
 $ cd handler-example
 $ touch main.go
